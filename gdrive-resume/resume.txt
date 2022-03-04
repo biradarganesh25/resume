@@ -6,20 +6,20 @@
 
 **EDUCATION**
 
-**Texas A&M University, College Station August 2021 – May 2023**
+**Texas A&M University, College Station, TX August 2021 – May 2023**
 
-Master of Computer Science **CGPA: 4/4**
+Master of Computer Science **GPA: 4/4**
 
 -   Relevant courses: Analysis of Algorithms, Distributed Systems,
     Parallel Computing, Software Engineering
 
 **R.V. College of Engineering, Bangalore August 2015 – May 2019**
 
-Bachelor of Engineering in Computer Science **CGPA:** **9.61/10**
+Bachelor of Engineering in Computer Science **GPA:** **9.61/10**
 
 **SKILLS**
 
--   Programming Languages: C, C++, Go (golang), SQL, Python, R
+-   Programming Languages: C, C++, Go, SQL, Python, R
 
 -   Network Programming in C
 
@@ -47,12 +47,12 @@ Bachelor of Engineering in Computer Science **CGPA:** **9.61/10**
 **WORK EXPERIENCE**
 
 **Texas A&M University, College Station *Graduate Research Assistant*
-July 2020 – June 2021**
+January 2021 - Present**
 
 -   Leading a team of 2 to add conversational intelligence to VR
     characters in different VR applications
 
-**Citrix R&D, Bangalore *Software Engineer 2* April 2019 – August 2019**
+**Citrix R&D, Bangalore *Software Engineer 2* July 2019 - August 2021**
 
 -   Collaborated with 7 people across 3 countries to implement High
     Availability and Backend Autoscaling in Citrix's ADC for different
@@ -66,8 +66,8 @@ July 2020 – June 2021**
 -   Played a key role in migrating the ADC codebase from FreeBSD 8.4 to
     11.4
 
-**Citrix R&D , Bangalore *Software Engineering Intern* May 2018 – July
-2018**
+**Citrix R&D , Bangalore *Software Engineering Intern* January 2019 –
+June 2019**
 
 -   Developed a new framework to automate the deployment of complex
     topologies using Citrix ADC on different clouds like GCP, AWS, and
@@ -78,7 +78,7 @@ July 2020 – June 2021**
     at Citrix's Techfair (2019) for this project
 
 **Samsung R&D, Bangalore *Software Engineering Intern* June 2018 –
-August 2019**
+August 2018**
 
 -   Co-led a team of 4 to to identify under-performing eNodeBs using
     > unsupervised clustering algorithms in a highly overloaded LTE
