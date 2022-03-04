@@ -6,7 +6,7 @@
 
 **EDUCATION**
 
-**Texas A&M University, College Station, TX August 2021 – May 2023**
+**Texas A&M University, College Station, TX August 2021**
 
 Master of Computer Science **GPA: 4/4**
 
@@ -47,12 +47,12 @@ Bachelor of Engineering in Computer Science **GPA:** **9.61/10**
 **WORK EXPERIENCE**
 
 **Texas A&M University, College Station *Graduate Research Assistant*
-January 2021 - Present**
+January 2021 – Present**
 
 -   Leading a team of 2 to add conversational intelligence to VR
     characters in different VR applications
 
-**Citrix R&D, Bangalore *Software Engineer 2* July 2019 - August 2021**
+**Citrix R&D, Bangalore *Software Engineer 2* July 2019 – August 2021**
 
 -   Collaborated with 7 people across 3 countries to implement High
     Availability and Backend Autoscaling in Citrix's ADC for different
@@ -72,7 +72,7 @@ June 2019**
 -   Developed a new framework to automate the deployment of complex
     topologies using Citrix ADC on different clouds like GCP, AWS, and
     Azure, which reduced the average testing time for new releases of
-    the product by around 60%.
+    the product by around 60%
 
 -   My team won Highest Revenue Impact’ and ‘Most Popular Choice’ awards
     at Citrix's Techfair (2019) for this project
@@ -87,11 +87,11 @@ August 2018**
 
 **PROJECTS **
 
-**Parallized Gaussian Process Regression using CUDA **
+**Parallel Gaussian Process Regression using CUDA **
 
--   Parallized different steps involved such as LU decomposition, matrix
-    multiplication and achieved a peak speedup of over 200 for the
-    decompose function
+-   Implemented a parallel version of different steps involved such as
+    LU decomposition, matrix multiplication and achieved a peak speedup
+    of over 200 for the decompose function
 
 **Parallel matrix inversion of upper triangular matrix using OpenMP **
 
