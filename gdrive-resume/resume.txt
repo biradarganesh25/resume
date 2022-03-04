@@ -1,0 +1,110 @@
+**Ganeshprasad Biradar**
+
+[github.com/biradarganesh25](http://github.com/biradarganesh25) |
+[linkedin.com/in/biradarganesh25/](https://www.linkedin.com/in/biradarganesh25/)
+| [979-7](about:blank)21-2892 | biradarganesh25@gmail.com
+
+**EDUCATION**
+
+**Texas A&M University, College Station August 2021 – May 2023**
+
+Master of Computer Science **CGPA: 4/4**
+
+-   Relevant courses: Analysis of Algorithms, Distributed Systems,
+    Parallel Computing, Software Engineering
+
+**R.V. College of Engineering, Bangalore August 2015 – May 2019**
+
+Bachelor of Engineering in Computer Science **CGPA:** **9.61/10**
+
+**SKILLS**
+
+-   Programming Languages: C, C++, Go (golang), SQL, Python, R
+
+-   Network Programming in C
+
+-   Parallel Computing: Concurrency, Multithreading and Synchronization
+    using Pthreads, CUDA and OpenMP
+
+-   Cloud platforms: AWS, GCP and Azure
+
+-   Agile Methodologies
+
+-   ML: Scikit-Learn, Numpy, Pandas, PyTorch, Seaborn
+
+-   Tools: Docker, Git, Postman, Jupyter Notebooks, Spark, Rasa
+
+-   Databases: MongoDB, MySQL, Sqlite
+
+> **Open Source Contributions**:
+
+-   CockroachDB: It is a distributed, strongly consistent SQL database
+    written in Go. I have contributed to their SQL parsing layer
+
+-   Zulip: It is an open source chat and collaborative software. I have
+    contributed to their user interface
+
+**WORK EXPERIENCE**
+
+**Texas A&M University, College Station *Graduate Research Assistant*
+July 2020 – June 2021**
+
+-   Leading a team of 2 to add conversational intelligence to VR
+    characters in different VR applications
+
+**Citrix R&D, Bangalore *Software Engineer 2* April 2019 – August 2019**
+
+-   Collaborated with 7 people across 3 countries to implement High
+    Availability and Backend Autoscaling in Citrix's ADC for different
+    cloud providers: AWS, Azure and GCP, which increased the adoption of
+    the product by around 20%
+
+-   Proposed and led an initiative to create an unified API for
+    communicating with different cloud providers that made development
+    of new features of Citrix ADC 3 times faster on these clouds
+
+-   Played a key role in migrating the ADC codebase from FreeBSD 8.4 to
+    11.4
+
+**Citrix R&D , Bangalore *Software Engineering Intern* May 2018 – July
+2018**
+
+-   Developed a new framework to automate the deployment of complex
+    topologies using Citrix ADC on different clouds like GCP, AWS, and
+    Azure, which reduced the average testing time for new releases of
+    the product by around 60%.
+
+-   My team won Highest Revenue Impact’ and ‘Most Popular Choice’ awards
+    at Citrix's Techfair (2019) for this project
+
+**Samsung R&D, Bangalore *Software Engineering Intern* June 2018 –
+August 2019**
+
+-   Co-led a team of 4 to to identify under-performing eNodeBs using
+    > unsupervised clustering algorithms in a highly overloaded LTE
+    > network, which entirely eliminated manual supervision to detect
+    > congested eNodeBs
+
+**PROJECTS **
+
+**Parallized Gaussian Process Regression using CUDA **
+
+-   Parallized different steps involved such as LU decomposition, matrix
+    multiplication and achieved a peak speedup of over 200 for the
+    decompose function
+
+**Parallel matrix inversion of upper triangular matrix using OpenMP **
+
+-   Achieved a speedup of around 4 using by parallelizing the recursive
+    implementation
+
+**Distributed In-Memory Key-Value Storage**
+
+-   Used a main server to keep track of partitions of key across
+    multiple servers, which is used to redirect queries. Static
+    partitioning of keys is decided based on the number of server
+
+**Apriori on Spark**
+
+-   Implemented apriori algorithm as part of a data-flow processing
+    > system to detect relationships between itemsets
