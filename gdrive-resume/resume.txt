@@ -46,8 +46,14 @@ Bachelor of Engineering in Computer Science **GPA:** **9.61/10**
 
 **WORK EXPERIENCE**
 
+> **NVIDIA, Santa Clara *Cloud Platform Software Engineer Intern* June
+> 2022 – Present**
+
+-   Helping implement a global rate limiting system for Unified Access
+    > Management service
+
 **Texas A&M University, College Station *Graduate Research Assistant*
-January 2021 – Present**
+January 2022 – May 2022**
 
 -   Leading a team of 2 to add conversational intelligence to VR
     characters in different VR applications
@@ -81,9 +87,9 @@ June 2019**
 August 2018**
 
 -   Co-led a team of 4 to to identify under-performing eNodeBs using
-    > unsupervised clustering algorithms in a highly overloaded LTE
-    > network, which entirely eliminated manual supervision to detect
-    > congested eNodeBs
+    unsupervised clustering algorithms in a highly overloaded LTE
+    network, which entirely eliminated manual supervision to detect
+    congested eNodeBs
 
 **PROJECTS **
 
@@ -107,6 +113,4 @@ August 2018**
 **Apriori on Spark**
 
 -   Implemented apriori algorithm as part of a data-flow processing
-    > system to detect relationships between itemsets
-
--
+    system to detect relationships between itemsets
