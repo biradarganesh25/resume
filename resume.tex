@@ -1,0 +1,168 @@
+\documentclass{article}
+
+% \usepackage[top=0.25in, bottom=0.25in, left=0.5in, right=0.5in]{geometry}
+% \usepackage{geometry}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=12mm,
+ right=12mm,
+ top=13mm,
+ bottom=5mm,
+ footskip=5mm
+ }
+\usepackage{enumitem}
+
+\usepackage[hidelinks]{hyperref}
+
+\pagenumbering{gobble}
+\usepackage{lastpage}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\hypersetup{
+ colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+}
+
+\renewcommand{\headrulewidth}{0pt} % to remove line on header
+\renewcommand{\footrulewidth}{0pt} % to remove line on footer
+
+\begin{document}
+\begin{center}
+% \thispagestyle{empty}
+\large \textbf{Ganeshprasad Biradar \\}
+\normalsize biradarganesh25@gmail.com $\mid$ 9797212892 \\ \url{https://www.linkedin.com/in/biradarganesh25} $\mid$ \url{https://github.com/biradarganesh25} \\
+\hrulefill
+\end{center}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% OBJECTIVE
+% Who you are, what domain, what are you looking for and when?
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent \textbf{\underline{SUMMARY}} \\
+\noindent A passionate engineer interested in distributed systems and cloud computing with over 2 years of extensive experience in all the major cloud platforms. \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% SKILLS: Important and relevant to the job you are applying for
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \noindent \textbf{\underline{CORE SKILLS}} \\
+% Skill 1 (years of experience), Skill 2 (years of experience), Skill 3 (years of experience) \\
+% Skill 1 (level of expertise), Skill 2 (level of expertise), Skill 3 (level of expertise) \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EDUCATION
+% University name, degree, year of graduation, GPA (optional)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent \textbf{\underline{EDUCATION}} \\
+\textbf{Texas A\&M University} \hfill College Station, Texas, USA \\
+\textit{Master Of Science in Computer Science}  \hfill August, 2021 $-$ August, 2023 (Expected) \\
+\textit{Relevant Coursework: Distributed Systems, Parallel Computing, Analysis of Algorithms, Software Engineering}\\
+
+\noindent \textbf{R.V. College of Engineering} \hfill Bangalore, Karnataka, India \\
+\textit{Bachelor of Engineering in Computer Science} \hspace{1.1cm} GPA: 9.09/10 \hfill August, 2015 $-$ August, 2019 \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WORK EXPERIENCE
+% What did you do? -> Project goals OR what problem did you solve?
+% How did you do it? -> Skills and technologies
+% What impact did you create? -> Numbers and percentages.
+% Example: 
+% + Developed an app for matching mentor and mentees for Android and iOS platform.
+% + Successfully matched 85% of the applications and randomized the rest.
+% 
+% Talk about team work, initiative, soft skills.
+%
+% Can also include personal projects, competitions, contribution to Open source.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent \textbf{\underline{WORK EXPERIENCE}} \\
+\noindent \textbf{NVIDIA} \hfill Santa Clara, California\\
+\textit{Software Engineering Intern \hfill May, 2022 $-$ Present}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+	\item Researched different possible rate limiting designs for Unified Access Management (UAM) service (which handles authorization for all Nvidia services) and implemented a global rate limiting solution which used Envoy's ratelimit service and Redis. This was a critical requirement for scaling the UAM service. Deployed on AWS in a Kubertenes cluster.
+	\item Analyzed response time of the rate limiting service across differnet types of traffic and optmized different modules like the log exporter to improve the latency.\\
+\end{itemize}
+
+\noindent \textbf{Texas A\&M University} \hfill College Station, Texas, USA\\
+\textit{Graduate Research Assistant (Conversational AI Developer) - Soft Research Lab \hfill January, 2022 $-$ Present}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item {Leading a team of 2 to add conversational intelligence to VR characters in different VR applications like \href{https://softinteraction.com/portfolio/sbirt-vr}{SBIRT-VR}}.\\
+\end{itemize}
+\noindent \textbf{Citrix R\&D} \hfill Bangalore, Karnataka, India \\
+\textit{Software Development Engineer 2} \hfill April, 2021 $-$ August, 2021 \\
+\textit{Software Development Engineer} \hfill July, 2019 $-$ March, 2021 
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item {Collaborated with 7 people across 3 countries (India, Greece and US) to implement High Availability and Backend Autoscaling in Citrix's Application Delivery Controller (ADC) for different cloud providers: AWS, Azure and GCP, which increased the adoption of the product by around 20\% on all the cloud providers.}
+\item {Proposed and led an initiative to create an unified API for communicating with different cloud providers that made development of new features of Citrix ADC 3 times faster on these clouds. }
+\item {Played a key role in migrating the ADC codebase from FreeBSD 8.4 to 11.4\\}
+\end{itemize}
+
+\noindent \textbf{Citrix R\&D} \hfill Bangalore, Karnataka, India \\
+\textit{Software Development Intern} \hfill January, 2019 $-$ June, 2019
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item {Developed a new framework to automate the deployment of complex topologies using Citrix ADC on different clouds like GCP, AWS, and Azure, which reduced the average testing time for new releases of the product by around 60\%. My team won Highest Revenue Impact’ and ‘Most Popular Choice’ awards at Citrix's Techfair (2019) for this project.\\}
+\end{itemize}
+
+\noindent \textbf{Samsung R\&D} \hfill Bangalore, Karnataka, India \\
+\textit{Software Development Intern} \hfill June, 2018 $-$ August, 2018
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item {Co-led a team of 4 to create a ML model by experimenting with different unsupervised clustering algorithms like DBSCAN, K-MEANS, and OPTICS to identify under-performing eNodeBs in a highly overloaded LTE network using Key Performance Indicators (KPIs), which entirely eliminated manual supervision to detect congested eNodeBs. \\}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Other Skills: you can add all your other skills here.
+% Continue to keep only relevant skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\noindent \textbf{\underline{TECHNICAL SKILLS AND OPEN SOURCE CONTRIBUTIONS}}
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+\item {Programming Languages: C, C++, Go (golang), SQL, Python, R}
+\item {Network Programming in C}
+\item {Concurrency, Multithreading and Synchronization}
+\item {Cloud platforms: AWS, GCP and Azure}
+\item {Agile Methodologies}
+\item {Open Source Contributions: I contribute whenever I have free time}
+\begin{itemize}
+    \item CockroachDB: It is a distributed, strongly consistent SQL database written in Go. I have contributed to their SQL parsing layer. \\
+\end{itemize}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Accomplishments
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PROJECT
+% What did you do?
+% How did you do it? -> Skills and technologies
+% What impact did you create? -> Numbers and percentages.
+%
+% Talk about team work, initiative, soft skills.
+%
+% Can also include personal projects, competitions, contribution to Open source.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \textbf{\underline{ACADEMIC PROJECTS}} (For more details, please follow the Github links.) \\
+\noindent \textbf{Parallized Gaussian Process Regression using CUDA} (\href{https://github.com/biradarganesh25/Parallized-Gaussian-Process-Regression-using-CUDA}{Github Link})
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+	\item {Parallized different steps involved such as LU decomposition, matrix multiplication and achieved a peak speed of over 200 for the decompose function. \\}
+\end{itemize}
+\noindent \textbf{Parallel matrix inversion of upper triangular matrix using OpenMP} (\href{https://github.com/biradarganesh25/Parallel-matrix-inversion}{Github Link})
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+	\item {Achieved a speedup of around 4 using by parallelizing the recursive implementation. \\}
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%
+% Extra Curricular Activities, Leadership, etc 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\cfoot{{Page \thepage\ of \pageref{LastPage}}}
+
+
+\end{document}
