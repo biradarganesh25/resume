@@ -27,8 +27,7 @@
     linkcolor=blue,
     filecolor=magenta,      
     urlcolor=cyan,
-    pdftitle={Overleaf Example},
-    pdfpagemode=FullScreen,
+    pdftitle={Resume}
 }
 
 \renewcommand{\headrulewidth}{0pt} % to remove line on header
@@ -38,7 +37,7 @@
 \begin{center}
 % \thispagestyle{empty}
 \large \textbf{Ganeshprasad Biradar \\}
-\normalsize biradarganesh25@gmail.com $\mid$ 9797212892 \\ \url{https://www.linkedin.com/in/biradarganesh25} $\mid$ \url{https://github.com/biradarganesh25} \\
+\normalsize biradarganesh25@gmail.com $\mid$ 9797212892 $\mid$ \href{https://www.linkedin.com/in/biradarganesh25}{LinkedIn} $\mid$ \href{https://github.com/biradarganesh25}{GitHub} \\
 \hrulefill
 \end{center}
 
@@ -47,8 +46,6 @@
 % OBJECTIVE
 % Who you are, what domain, what are you looking for and when?
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\noindent \textbf{\underline{SUMMARY}} \\
-\noindent A passionate engineer interested in distributed systems and cloud computing with over 2 years of extensive experience in all the major cloud platforms. \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % SKILLS: Important and relevant to the job you are applying for
@@ -64,7 +61,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \noindent \textbf{\underline{EDUCATION}} \\
 \textbf{Texas A\&M University} \hfill College Station, Texas, USA \\
-\textit{Master Of Science in Computer Science}  \hfill August, 2021 $-$ August, 2023 (Expected) \\
+\textit{Master Of Science in Computer Science}  \hfill August, 2021 $-$ May, 2023 \\
 \textit{Relevant Coursework: Distributed Systems, Parallel Computing, Analysis of Algorithms, Software Engineering}\\
 
 \noindent \textbf{R.V. College of Engineering} \hfill Bangalore, Karnataka, India \\
@@ -85,36 +82,44 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \noindent \textbf{\underline{WORK EXPERIENCE}} \\
 \noindent \textbf{NVIDIA} \hfill Santa Clara, California\\
-\textit{Software Engineering Intern \hfill May, 2022 $-$ Present}
+\textit{Software Engineering Intern} \hfill May, 2022 $-$ August, 2022
 \begin{itemize}[noitemsep,nolistsep,leftmargin=*]
-	\item Researched different possible rate limiting designs for Unified Access Management (UAM) service (which handles authorization for all Nvidia services) and implemented a global rate limiting solution which used Envoy's ratelimit service and Redis. This was a critical requirement for scaling the UAM service. Deployed on AWS in a Kubertenes cluster.
-	\item Analyzed response time of the rate limiting service across differnet types of traffic and optmized different modules like the log exporter to improve the latency.\\
+	\item Researched different rate limiting designs for Unified Access Management (UAM) service (which will handle authorization for all Nvidia's cloud services) and implemented a global rate limiting solution which used Lyft's open source ratelimit service and Redis. This was a critical requirement for scaling the UAM service. 
+	\item Analyzed response time of the rate limiting service and optimized connection parameters to the service to reduce latency and satisfy SLA's. Final latency: p95 was 15ms
+	\item Designed and implemented APIs to dynamically change the global ratelimit configuration with zero downtime with 95\% unit test coverage.
+	\item Read Designing Data-Intensive Applications, which helped me understand intricacies of distributed systems and make better design choices (for e.g choices involving trade-offs between avaliability and consistency)
+	\item Technologies/Skills: Go, go-kit, testify, Envoy, AWS, Kubernetes, Redis, Terraform, Cassandra, Distributed Systems \\
 \end{itemize}
 
 \noindent \textbf{Texas A\&M University} \hfill College Station, Texas, USA\\
-\textit{Graduate Research Assistant (Conversational AI Developer) - Soft Research Lab \hfill January, 2022 $-$ Present}
+\textit{Graduate Research Assistant (Conversational AI Developer) - Soft Research Lab} \hfill January, 2022 $-$ May, 2022
 \begin{itemize}[noitemsep,nolistsep,leftmargin=*]
-\item {Leading a team of 2 to add conversational intelligence to VR characters in different VR applications like \href{https://softinteraction.com/portfolio/sbirt-vr}{SBIRT-VR}}.\\
+\item {Led a team of 2 to add conversational intelligence to VR characters in different VR applications like \href{https://softinteraction.com/portfolio/sbirt-vr}{SBIRT-VR}}.
+\item {Developed, deployed and maintained a conversational ML model which exhibited different patient personalities that students used to practice their diagnostic skills.}
+\item Technologies: Rasa, Python, Flask, Gunicorn, PyTorch, BERT and its variants, Scikit-Learn\\
+
 \end{itemize}
 \noindent \textbf{Citrix R\&D} \hfill Bangalore, Karnataka, India \\
 \textit{Software Development Engineer 2} \hfill April, 2021 $-$ August, 2021 \\
 \textit{Software Development Engineer} \hfill July, 2019 $-$ March, 2021 
 \begin{itemize}[noitemsep,nolistsep,leftmargin=*]
-\item {Collaborated with 7 people across 3 countries (India, Greece and US) to implement High Availability and Backend Autoscaling in Citrix's Application Delivery Controller (ADC) for different cloud providers: AWS, Azure and GCP, which increased the adoption of the product by around 20\% on all the cloud providers.}
-\item {Proposed and led an initiative to create an unified API for communicating with different cloud providers that made development of new features of Citrix ADC 3 times faster on these clouds. }
-\item {Played a key role in migrating the ADC codebase from FreeBSD 8.4 to 11.4\\}
+\item {Designed and implemented cloud modules for Azure and GCP for High Availability and Backend Autoscaling features in Citrix's Application Delivery Controller (ADC). These features increased the adoption of the product by around 20\%.}
+\item {Proposed and led an initiative to create an unified API for communicating with different cloud providers that made development of new features of Citrix ADC 3 times faster on these clouds.}
+\item {Technologies: Azure, GCP, Python, C, Ansible\\}
 \end{itemize}
 
 \noindent \textbf{Citrix R\&D} \hfill Bangalore, Karnataka, India \\
 \textit{Software Development Intern} \hfill January, 2019 $-$ June, 2019
 \begin{itemize}[noitemsep,nolistsep,leftmargin=*]
-\item {Developed a new framework to automate the deployment of complex topologies using Citrix ADC on different clouds like GCP, AWS, and Azure, which reduced the average testing time for new releases of the product by around 60\%. My team won Highest Revenue Impact’ and ‘Most Popular Choice’ awards at Citrix's Techfair (2019) for this project.\\}
+\item {Developed a new framework to automate the deployment of complex topologies using Citrix ADC on different clouds like GCP, AWS, and Azure, which reduced the average testing time for new releases of the product by around 60\%. Won Highest Revenue Impact’ and ‘Most Popular Choice’ awards at Citrix's Techfair (2019) for this project.}
+\item{Technologies: Azure, AWS, GCP, C, Python, Ansible, Perl \\}
 \end{itemize}
 
 \noindent \textbf{Samsung R\&D} \hfill Bangalore, Karnataka, India \\
 \textit{Software Development Intern} \hfill June, 2018 $-$ August, 2018
 \begin{itemize}[noitemsep,nolistsep,leftmargin=*]
-\item {Co-led a team of 4 to create a ML model by experimenting with different unsupervised clustering algorithms like DBSCAN, K-MEANS, and OPTICS to identify under-performing eNodeBs in a highly overloaded LTE network using Key Performance Indicators (KPIs), which entirely eliminated manual supervision to detect congested eNodeBs. \\}
+\item {Co-led a team of 4 to create a ML model by experimenting with different unsupervised clustering algorithms like DBSCAN, K-MEANS, and OPTICS to identify under-performing eNodeBs in a highly overloaded LTE network using Key Performance Indicators (KPIs), which entirely eliminated manual supervision to detect congested eNodeBs.}
+\item{Technologies: R, DBSCAN, K-MEANS, OPTICS.\\}
 \end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -124,13 +129,12 @@
 \noindent \textbf{\underline{TECHNICAL SKILLS AND OPEN SOURCE CONTRIBUTIONS}}
 \begin{itemize}[noitemsep,nolistsep,leftmargin=*]
 \item {Programming Languages: C, C++, Go (golang), SQL, Python, R}
-\item {Network Programming in C}
-\item {Concurrency, Multithreading and Synchronization}
-\item {Cloud platforms: AWS, GCP and Azure}
-\item {Agile Methodologies}
-\item {Open Source Contributions: I contribute whenever I have free time}
+\item {Techonologies: Docker, Postman, Jupyter Notebooks, Spark, Rasa, Go-Kit, Kubernetes, Envoy, AWS, GCP, Azure, Numpy, Pandas, PyTorch, Seaborn, CUDA, OpenMP}
+\item {Other: Distributed Systems, Microservices, Network Programming in C, Concurrency, Multithreading and Synchronization}
+\item {Open Source Contributions:}
 \begin{itemize}
-    \item CockroachDB: It is a distributed, strongly consistent SQL database written in Go. I have contributed to their SQL parsing layer. \\
+    \item CockroachDB: It is a distributed, strongly consistent SQL database written in Go. I have contributed to their SQL parsing layer. 
+    \item Zulip: It is an open source chat and collaborative software. I have contributed to their user interface
 \end{itemize}
 \end{itemize}
 
