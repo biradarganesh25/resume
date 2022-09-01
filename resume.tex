@@ -13,6 +13,7 @@
  footskip=5mm
  }
 \usepackage{enumitem}
+\usepackage{tabto}
 
 \usepackage[hidelinks]{hyperref}
 
@@ -61,11 +62,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \noindent \textbf{\underline{EDUCATION}} \\
 \textbf{Texas A\&M University} \hfill College Station, Texas, USA \\
-\textit{Master Of Science in Computer Science}  \hfill August 2021 $-$ May 2023 \\
+\textit{Master Of Science in Computer Science}  \tabto*{9cm} GPA: 4.00/4 \hfill August 2021 $-$ May 2023 \\
 \textit{Relevant Coursework: Distributed Systems, Parallel Computing, Analysis of Algorithms, Software Engineering}\\
 
 \noindent \textbf{R.V. College of Engineering} \hfill Bangalore, Karnataka, India \\
-\textit{Bachelor of Engineering in Computer Science} \hspace{1.1cm} GPA: 9.09/10 \hfill August 2015 $-$ August 2019 \\
+\textit{Bachelor of Engineering in Computer Science} \tabto*{9cm} GPA: 9.09/10 \hfill August 2015 $-$ August 2019 \\
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % WORK EXPERIENCE
@@ -84,11 +85,11 @@
 \noindent \textbf{NVIDIA} \hfill Santa Clara, California\\
 \textit{Software Engineering Intern} \hfill May 2022 $-$ August 2022
 \begin{itemize}[noitemsep,nolistsep,leftmargin=*]
-	\item Researched different rate limiting designs for Unified Access Management (UAM) service (which will handle authorization for all Nvidia's cloud services) and implemented a global rate limiting solution which used Lyft's open source ratelimit service and Redis. This was a critical requirement for scaling the UAM service. 
-	\item Analyzed response time of the rate limiting service and optimized connection parameters to the service to reduce latency and satisfy SLA's. Final latency: p95 was 15ms
+	\item Researched different rate limiting designs for Unified Access Management (UAM) service (which will handle authorization for all Nvidia's cloud services) and implemented a global rate limiting solution which used Lyft's open sourced ratelimit service and Redis. This was a critical requirement for scaling the UAM service. 
+	\item Analyzed response time of the rate limiting service and optimized connection parameters to the service to reduce latency and satisfy SLA's. Final latency: p99 was 15ms.
 	\item Designed and implemented APIs to dynamically change the global ratelimit configuration with zero downtime with 95\% unit test coverage.
-	\item Read Designing Data-Intensive Applications, which helped me understand intricacies of distributed systems and make better design choices (for e.g. choices involving trade-offs between availability and consistency)
-	\item Skills: Go, go-kit, testify, Envoy, AWS, Kubernetes, Redis, Terraform, Cassandra, Distributed Systems \\
+	\item Read Designing Data-Intensive Applications book, which helped me understand intricacies of distributed systems and make better design choices (for e.g. choices involving trade-offs between availability and consistency).
+	\item Skills: Go, go-kit, testify, Envoy, AWS, Kubernetes, Redis, Terraform, Cassandra, Distributed Systems. \\
 \end{itemize}
 
 \noindent \textbf{Texas A\&M University} \hfill College Station, Texas, USA\\
@@ -96,7 +97,7 @@
 \begin{itemize}[noitemsep,nolistsep,leftmargin=*]
 \item {Led a team of 2 to add conversational intelligence to VR characters in different VR applications like \href{https://softinteraction.com/portfolio/sbirt-vr}{\underline{SBIRT-VR}}}.
 \item {Developed, deployed and maintained a conversational ML model which exhibited different patient personalities that students used to practice their diagnostic skills.}
-\item Skills: Rasa, Python, Flask, Gunicorn, PyTorch, BERT and its variants, Scikit-Learn, NLP\\
+\item Skills: Rasa, Python, Flask, Gunicorn, PyTorch, BERT and its variants, Scikit-Learn, NLP.\\
 
 \end{itemize}
 \noindent \textbf{Citrix R\&D} \hfill Bangalore, Karnataka, India \\
@@ -108,7 +109,7 @@
 \item {Proposed and led an initiative to create a unified API for communicating with different cloud providers that made development of new features of Citrix ADC 3 times faster on these clouds.}
 \item {Recognized that existing library used for testing Citrix ADC (built in-house) was not suitable to test cloud specific features (only black box testing was being done). Started a new initiative to add unit tests by mocking cloud services.}
 \item {Developed a new framework to automate the deployment of complex network configurations using Citrix ADC on different clouds like GCP, AWS, and Azure, which reduced the average testing time for new releases of the product by around 60\%. Won `Highest Revenue Impact' and `Most Popular Choice' awards at Citrix's Techfair (2019) for this project.}
-\item {Skills: AWS, Azure, GCP, Python, C, Ansible\\}
+\item {Skills: AWS, Azure, GCP, Python, C, Ansible.\\}
 \end{itemize}
 
 \noindent \textbf{Samsung R\&D} \hfill Bangalore, Karnataka, India \\
