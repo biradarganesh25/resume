@@ -63,7 +63,7 @@
 \noindent \textbf{\underline{EDUCATION}} \\
 \textbf{Texas A\&M University} \hfill College Station, Texas, USA \\
 \textit{Master Of Science in Computer Science}  \tabto*{9cm} GPA: 4.00/4 \hfill August 2021 $-$ May 2023 \\
-\textit{Relevant Coursework: Distributed Systems, Parallel Computing, Analysis of Algorithms, Software Engineering}\\
+\textit{Relevant Coursework: Distributed Systems and Cloud Computing, Analysis of Algorithms, Software Engineering}\\
 
 \noindent \textbf{R.V. College of Engineering} \hfill Bangalore, Karnataka, India \\
 \textit{Bachelor of Engineering in Computer Science} \tabto*{9cm} GPA: 9.09/10 \hfill August 2015 $-$ August 2019 \\
@@ -82,7 +82,15 @@
 % Can also include personal projects, competitions, contribution to Open source.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \noindent \textbf{\underline{WORK EXPERIENCE}} \\
-\noindent \textbf{NVIDIA} \hfill Santa Clara, California\\
+\noindent \textbf{Cockroach Labs} \hfill New York City, New York, USA\\
+\textit{Software Engineering Intern} \hfill Sept 2022 $-$ Dec 2022
+\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
+	\item Explored different approaches to encode \href{https://www.cockroachlabs.com/docs/stable/change-data-capture-overview.html}{\underline{changefeeds}} from CockroachDB in Apache Parquet format and leveraged existing distributed changefeed processors to add Parquet support to CDC in CockroachDB. This involved understanding different layers of distributed database (key-value storage, distributed transactions, SQL).
+	\item Designed and implemented a new mechanism for scheduling changefeeds at regular intervals. This along with support for Parquet format will enable users to use changefeeds as an alternative to exporting data out of CockroachDB, with better fault tolerance and resiliency. I also designed the SQL statement grammar for creating schedule changefeeds, which involved brushing up on different topics like CFG (Context-free grammar), Shift-reduce parser, using Yacc and Lex to build parsers, etc.
+	\item Skills: Distributed databases and computing, Go, go-yacc, Automata theory. \\
+\end{itemize}
+
+\noindent \textbf{NVIDIA} \hfill Santa Clara, California, USA\\
 \textit{Software Engineering Intern} \hfill May 2022 $-$ August 2022
 \begin{itemize}[noitemsep,nolistsep,leftmargin=*]
 	\item Researched different rate limiting designs for Unified Access Management (UAM) service (which will handle authorization for all Nvidia's cloud services) and implemented a global rate limiting solution which used Lyft's open sourced ratelimit service and Redis. This was a critical requirement for scaling the UAM service. 
@@ -112,6 +120,8 @@
 \item {Skills: AWS, Azure, GCP, Python, C, Ansible.\\}
 \end{itemize}
 
+\pagebreak
+
 \noindent \textbf{Samsung R\&D} \hfill Bangalore, Karnataka, India \\
 \textit{Software Development Intern} \hfill June 2018 $-$ August 2018
 \begin{itemize}[noitemsep,nolistsep,leftmargin=*]
@@ -126,8 +136,8 @@
 \noindent \textbf{\underline{TECHNICAL SKILLS AND OPEN SOURCE CONTRIBUTIONS}}
 \begin{itemize}[noitemsep,nolistsep,leftmargin=*]
 \item {Programming Languages: C, C++, Go, SQL, Python, R}
-\item {Technologies:  Kubernetes, Envoy, AWS, GCP, Azure, Redis, Terraform, Ansible, Numpy, Pandas, PyTorch, Seaborn, CUDA, OpenMP, Docker, Spark, Rasa, go-kit, testify}
-\item {Other: Distributed Systems, Microservices, Network Programming in C, Concurrency, Multithreading and Synchronization}
+\item {Technologies:  Kubernetes, Envoy, AWS, GCP, Azure, Redis, Terraform, Ansible, Numpy, Pandas, PyTorch, Seaborn, CUDA, OpenMP, Docker, Spark, Rasa, go-kit, testify, go-yacc}
+\item {Other: Distributed Systems, Microservices, Network Programming in C, Concurrency, Multithreading and Synchronization, Automata Theory}
 \item {Open Source Contributions:}
 \begin{itemize}
     \item CockroachDB: It is a distributed, strongly consistent SQL database written in Go. I have contributed to their SQL parsing layer. 
@@ -148,16 +158,6 @@
 %
 % Can also include personal projects, competitions, contribution to Open source.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\noindent \textbf{\underline{ACADEMIC PROJECTS}} (For more details, please follow the Github links.) \\
-\noindent \textbf{Parallized Gaussian Process Regression using CUDA} (\href{https://github.com/biradarganesh25/Parallized-Gaussian-Process-Regression-using-CUDA}{Github Link})
-\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
-	\item {Parallized different steps involved such as LU decomposition, matrix multiplication and achieved a peak speed of over 200 for the decompose function. \\}
-\end{itemize}
-\noindent \textbf{Parallel matrix inversion of upper triangular matrix using OpenMP} (\href{https://github.com/biradarganesh25/Parallel-matrix-inversion}{Github Link})
-\begin{itemize}[noitemsep,nolistsep,leftmargin=*]
-	\item {Achieved a speedup of around 4 using by parallelizing the recursive implementation. \\}
-\end{itemize}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%%%%%%%
